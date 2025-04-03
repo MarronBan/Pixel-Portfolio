@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ "main" ] # 触发分支，根据你的主分支名称调整（如master）
+    branches: [ "master" ] # 触发分支，根据你的主分支名称调整（如master）
 
 permissions:
   contents: write # 允许向gh-pages分支写入内容
