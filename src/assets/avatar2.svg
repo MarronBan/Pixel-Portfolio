@@ -1,0 +1,29 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 像素风格头像 - 每个rect代表一个像素 -->
+  <!-- 背景 -->
+  <rect width="200" height="200" fill="#f0f0f0"/>
+  
+  <!-- 头部轮廓 - 浅肤色 -->
+  <rect x="60" y="40" width="80" height="100" fill="#FFD39B"/>
+  
+  <!-- 头发 - 深棕色 -->
+  <rect x="60" y="40" width="80" height="30" fill="#8B4513"/>
+  <rect x="50" y="50" width="10" height="50" fill="#8B4513"/>
+  <rect x="140" y="50" width="10" height="50" fill="#8B4513"/>
+  <rect x="50" y="40" width="10" height="20" fill="#8B4513"/>
+  <rect x="140" y="40" width="10" height="20" fill="#8B4513"/>
+  
+  <!-- 眼睛 - 黑色 -->
+  <rect x="80" y="70" width="10" height="10" fill="#000000"/>
+  <rect x="110" y="70" width="10" height="10" fill="#000000"/>
+  
+  <!-- 嘴巴 - 红色 -->
+  <rect x="90" y="100" width="20" height="10" fill="#FF6347"/>
+  
+  <!-- 脸颊 - 淡粉色 -->
+  <rect x="70" y="90" width="10" height="10" fill="#FFB6C1"/>
+  <rect x="120" y="90" width="10" height="10" fill="#FFB6C1"/>
+  
+  <!-- 衣领 - 蓝色 -->
+  <rect x="70" y="140" width="60" height="20" fill="#4169E1"/>
+</svg>

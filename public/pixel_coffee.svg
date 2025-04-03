@@ -1,0 +1,22 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 像素风格咖啡杯 -->
+  <!-- 杯子把手 -->
+  <rect x="130" y="80" width="10" height="10" fill="#5D4037"/>
+  <rect x="140" y="70" width="10" height="50" fill="#5D4037"/>
+  <rect x="130" y="110" width="10" height="10" fill="#5D4037"/>
+  
+  <!-- 杯子 -->
+  <rect x="60" y="60" width="70" height="10" fill="#8D6E63"/>
+  <rect x="50" y="70" width="10" height="60" fill="#8D6E63"/>
+  <rect x="60" y="70" width="70" height="60" fill="#A1887F"/>
+  <rect x="50" y="130" width="80" height="10" fill="#8D6E63"/>
+  
+  <!-- 杯子内的咖啡 -->
+  <rect x="60" y="70" width="70" height="10" fill="#3E2723"/>
+  <rect x="60" y="80" width="70" height="40" fill="#5D4037"/>
+  
+  <!-- 蒸汽 -->
+  <rect x="70" y="40" width="10" height="10" fill="#E0E0E0"/>
+  <rect x="90" y="30" width="10" height="10" fill="#E0E0E0"/>
+  <rect x="110" y="40" width="10" height="10" fill="#E0E0E0"/>
+</svg>

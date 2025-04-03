@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Pixel Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @font-face {
+          font-family: 'LanaPixel';
+          src: url('/LanaPixel.ttf') format('truetype');
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            width:{
+              'md':'28rem'
+            },
+            fontFamily: {
+              'pixel': ['"LanaPixel"', 'cursive'],
+              'geist-mono': ['monospace']
+            },
+            colors: {
+              'pixel-green': '#48A14D',
+              'pixel-brown': '#8E562E',
+              'pixel-blue': '#4B6EAD',
+              'pixel-light-blue':'#90bce0',
+              'pixel-yellow': '#F7CF45',
+              'pixel-dark':'#292F36',
+              'pixel-shadow':'#011627'
+            },
+            animation: {
+              'pixel-bounce': 'pixelBounce 0.5s infinite alternate',
+              'pixel-float': 'pixelFloat 3s infinite alternate',
+            },
+            keyframes: {
+              pixelBounce: {
+                '0%': { transform: 'translateY(0)' },
+                '100%': { transform: 'translateY(-5px)' },
+              },
+              pixelFloat: {
+                '0%': { transform: 'rotate(-20deg)' },
+                '100%': { transform: 'rotate(20deg)' },
+              }
+            },
+            backgroundImage:{
+              'pixel_apple':"url('/pixel_apple.svg')",
+              'pixel_book':"url('/pixel_book.svg')",
+              'pixel_coffee':"url('/pixel_coffee.svg')"
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Hide scrollbar but keep functionality */
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .hide-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+      * {
+        image-rendering: pixelated;
+        image-rendering: crisp-edges;
+      }
+    </style>
+  </head>
+  <body class="bg-pixel-green font-pixel text-black overflow-hidden">
+    <div id="root"></div>
+    <script>
+      window.addEventListener("wheel", (e)=> {
+        const isPinching = e.ctrlKey
+        if(isPinching) e.preventDefault()
+      }, { passive: false })
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
