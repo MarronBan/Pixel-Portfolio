@@ -14,7 +14,7 @@ function Sidebar({ activeSection, setActiveSection, setSilderClick }) {
   }
 
   return (
-    <div className="w-64 bg-pixel-blue p-4 flex flex-col items-center pixel-border overflow-y-auto hide-scrollbar">
+    <div className="w-64 hidden md:flex bg-pixel-blue p-4 flex flex-col items-center pixel-border overflow-y-auto hide-scrollbar">
       <div className="pixel-border bg-white p-3 mb-8 mt-8">
         <h1 className="text-5xl">Pixel Portfolio</h1>
       </div>

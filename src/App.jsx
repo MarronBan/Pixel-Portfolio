@@ -48,7 +48,7 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen overflow-hidden">
+    <div className="flex w-screen h-screen overflow-hidden">
       <Sidebar 
         activeSection={activeSection} 
         setActiveSection={setActiveSection} 
